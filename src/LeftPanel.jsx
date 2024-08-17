@@ -6,11 +6,11 @@ import LeftNewChat from "./LeftNewChat"
 function LeftPanel() {
   
   return (
-    <>
+    <div className="leftPanel">
       <LeftHeader />
       <LeftMain />
       <LeftNewChat />
-    </>
+    </div>
   )
 }
 

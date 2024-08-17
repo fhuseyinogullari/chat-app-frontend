@@ -1,20 +1,20 @@
 function Person() {
 
   return (
-    <>
-      <div>
-        <img src="#" alt="avatar" />
+    <div className="person">
+      <div className="person-image">
+        <img src="../public/J0003_m.png" alt="avatar" />
       </div>
-      <div>
-        <div>
-          <label>name</label>
-          <label>tarih</label>
+      <div className="person-info">
+        <div className="person-info-1">
+          <p>name</p>
+          <p>tarih</p>
         </div>
         <div>
           <label>son mesaj</label>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

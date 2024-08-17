@@ -3,10 +3,10 @@ import MainPanel from './MainPanel'
 function App() {
 
   return (
-    <>
+    <div className="app">
       <LeftPanel />
       <MainPanel />
-    </>
+      </div>
   )
 }
 

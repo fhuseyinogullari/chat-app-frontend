@@ -1,0 +1,154 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.app{
+    display: flex;
+
+}
+
+
+.mainPanel{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.mainHeader {
+
+    flex: 1;
+    display: flex;
+}
+
+.main-chat{
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-chat-info{
+
+    flex: 6;
+
+}
+
+.main-chat-sending{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+.mainHeader-info{
+
+    display: flex;
+    flex: 3;
+
+}
+
+.mainHeader-info-img {
+
+    flex: 1;
+
+}
+
+.mainHeader-info-img img{
+
+    
+    width: 50%;
+    margin: auto;
+    display: block;
+
+}
+
+.mainHeader-info-text{
+
+    flex: 5;
+}
+
+.mainHeader-buttons{
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.leftPanel{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-right: 1%;
+
+}
+
+
+.leftHeader{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.leftMain{
+
+    flex: 6;
+}
+
+.leftNewChat{
+
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    align-items: center;
+}
+
+
+.person{
+    padding: 5px;
+    display: flex;
+
+}
+
+.person-image{
+    
+    flex: 1;
+    
+
+}
+
+.person-image img{
+
+    width: 50%;
+    margin: auto;
+    display: block;
+
+}
+
+
+.person-info{
+
+    flex: 3;
+}
+
+
+.person-info-1{
+    display: flex;
+    justify-content: space-between;
+
+}
+
